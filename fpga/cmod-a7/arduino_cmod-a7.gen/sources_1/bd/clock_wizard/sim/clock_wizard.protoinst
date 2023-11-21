@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"clock_wizard": {
+			"proto_instances": {
+			}
+		}
+	}
+}
