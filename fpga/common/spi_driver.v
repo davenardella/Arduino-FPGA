@@ -5,11 +5,11 @@
 // Released under MIT License
 //***********************************************************************************************
 module spi_driver(
-	input wire sysclock,                // System clock
+    input wire sysclock,                // System clock
     input wire sysreset,                // System reset
     // SPI physical lines
-	input wire device_clk,              // Route it to SPI sck
-	input wire device_ss,               // Route it to SPI ss
+    input wire device_clk,              // Route it to SPI sck
+    input wire device_ss,               // Route it to SPI ss
     input wire device_copi,             // Route it to SPI copi
     output wire device_cipo,            // Route it to SPI cipo
     // Data exchange
@@ -19,8 +19,8 @@ module spi_driver(
     // Watchdog
     output reg wdog_alarm = 1'b0
 );
-	parameter SYSCLK_MHZ   = 27;        // How many MHz is System clock
-	parameter WDOG_TIMEOUT = 2000;      // Whatcdog Timeout in millisec (0 disabled)           
+    parameter SYSCLK_MHZ   = 27;        // How many MHz is System clock
+    parameter WDOG_TIMEOUT = 2000;      // Whatcdog Timeout in millisec (0 disabled)           
 
     localparam TICK_KHZ = SYSCLK_MHZ * 1000;
 
