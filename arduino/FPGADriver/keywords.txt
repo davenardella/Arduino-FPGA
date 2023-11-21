@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For Ethernet
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+FPGAClass	KEYWORD1	FPGAClass
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+Exchange	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+FPGA_SUCCESS	LITERAL1
+FPGA_COMERROR	LITERAL1
+FPGA_PARERROR	LITERAL1
+DEFAULT_SPI_FREQUENCY	LITERAL1
