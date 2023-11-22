@@ -17,9 +17,9 @@ Open a project inside \fpga with the related programming tool.
 
 ## Article
 
-<a href="https://www.linkedin.com/pulse/" target="_blank">English version</a>
+<a href="https://www.linkedin.com/pulse/arduino-pro-fpga-perfect-marriage-extreme-tasks-lets-how-nardella-mqfxf" target="_blank">English version</a>
 
-<a href="https://www.linkedin.com/pulse/" target="_blank">Italian version</a>
+<a href="https://www.linkedin.com/pulse/arduino-pro-fpga-un-matrimonio-perfetto-per-compiti-estremi-nardella-xos3f" target="_blank">Italian version</a>
 
 *Have fun*
 
