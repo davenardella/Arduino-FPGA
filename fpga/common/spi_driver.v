@@ -43,7 +43,7 @@ module spi_driver(
         if (reset) 
         begin
             ofs_cnt <= 4'd15;
-            rec_cnt <= 15'd0;
+            rec_cnt <= 16'd0;
             cipo_next <= 1'b0;
             state <= GET_OFS;
         end
@@ -60,7 +60,7 @@ module spi_driver(
                 end
                 XCHG: begin                   
                     copi_data[rec_cnt] <= device_copi;
-                    rec_cnt <= rec_cnt - 15'd1;
+                    rec_cnt <= rec_cnt - 16'd1;
                 end             
             endcase
         end
