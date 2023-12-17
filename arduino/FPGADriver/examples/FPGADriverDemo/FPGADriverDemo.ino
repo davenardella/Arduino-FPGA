@@ -25,7 +25,8 @@
 #endif
 
 void setup() {
-    FPGA.begin(PIN_SPI_SS, &copi_data, &cipo_data, buffersize);
+    // Start with 10 MHz here. Once you are confident with you cabling, you can raise that param
+    FPGA.begin(PIN_SPI_SS, &copi_data, &cipo_data, buffersize, 10000000);
     Serial.begin(9600);
     for (int c = 0; c < buffersize; c++)
         copi_data[c] = c;
